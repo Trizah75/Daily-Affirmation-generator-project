@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #8ec5fc 0%, #e0c3fc 100%);
+  color: #333;
+}
+.container {
+  text-align: center;
+  background-color: white;
+  max-width: 600px;
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.instructions {
+  width: 80%;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  border: 1px solid #ccc;
+}
+.submit-button {
+  margin-left: 10px;
+  background: #4a47a3;
+  color: white;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 40px;
+  padding: 15px 30px;
+}
+h1 {
+  color: #4a47a3;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+p {
+  font-size: 18px;
+  color: #333;
+}
+.affirmation-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+a {
+  color: #4a47a3;
+}
+footer {
+  font-size: 14px;
+  color: #777;
+  margin-top: 30px;
+  text-align: center;
+}
