@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daily Affirmation Generator</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
       <h1>Daily Affirmation Generator</h1>
-      <form>
+      <form id="affirmation-form">
         <input
           class="instructions"
           type="text"
@@ -18,8 +19,8 @@
         />
         <input class="submit-button" type="submit" />
       </form>
-      <div class="affirmation-box">
-        <p>Enter a topic of your choice to receive your daily affirmation!</p>
+      <div class="affirmation-box" id="affirmation-box">
+        <p></p>
       </div>
       <footer>
         This project was coded by
