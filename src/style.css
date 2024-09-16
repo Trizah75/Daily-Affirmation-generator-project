@@ -49,6 +49,9 @@ h1 {
 p {
   font-size: 18px;
   color: #333;
+  line-height: 2;
+  text-align: center;
+  margin-top: 20px;
 }
 .affirmation-box {
   background-color: #f0f0f0;
