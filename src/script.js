@@ -17,6 +17,9 @@ function generateAffirmation(event) {
     "You are creating four-line affirmations based on the user's chosen topic.The affirmations should be brief, positive and uplifiting. Focus on empowering and motivation the user with a clear connection to the chosen topic.Keep each affirmation concise but impactful.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let affirmationElement = document.querySelector("#affirmation-box");
+  affirmationElement.classList.remove("hidden");
+
   axios.get(apiUrl).then(displayAffirmation);
 }
 let affirmationForm = document.querySelector("#affirmation-form");
